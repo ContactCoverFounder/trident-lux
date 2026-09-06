@@ -482,3 +482,19 @@ footer {
     height: 320px;
   }
 }
+
+.hero-photo-grid {
+  height: 540px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 8px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.hero-photo-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
